@@ -1,7 +1,13 @@
 {
-  "name": "date",
-  "version": "1.0.0",
+  "name": "date-smile",
+  "version": "1.0.0-beta.0",
+  "description": "Date formatting and parsing",
+  "main": "index.js",
+  "module": "es/index.js",
+  "unpkg": "date-smile.umd.js",
+  "jsdelivr": "date-smile.umd.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "jest --detectOpenHandles --config jest.config.js",
     "release": "npm run build && npm publish dist"
   },
@@ -9,12 +15,22 @@
     "type": "git",
     "url": "git+https://github.com/fengxinming/date-smile.git"
   },
+  "keywords": [
+    "date",
+    "format",
+    "parse",
+    "moment",
+    "date-smile"
+  ],
   "author": "Jesse Feng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fengxinming/date-smile/issues"
   },
   "homepage": "https://github.com/fengxinming/date-smile#readme",
+  "dependencies": {
+    "celia": "^7.0.0-beta.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
@@ -38,8 +54,5 @@
     "rollup-plugin-empty": "^1.0.0",
     "rollup-plugin-match": "^1.0.0",
     "rollup-plugin-terser": "^5.3.0"
-  },
-  "dependencies": {
-    "date-smile": "^1.0.0-beta.0"
   }
 }
