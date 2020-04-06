@@ -1,0 +1,58 @@
+{
+  "name": "date-smile",
+  "version": "1.0.0-beta.0",
+  "description": "Date formatting and parsing",
+  "main": "index.js",
+  "module": "es/index.js",
+  "unpkg": "date-smile.umd.js",
+  "jsdelivr": "date-smile.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --detectOpenHandles --config jest.config.js",
+    "release": "npm run build && npm publish dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/date-smile.git"
+  },
+  "keywords": [
+    "date",
+    "format",
+    "parse",
+    "moment",
+    "date-smile"
+  ],
+  "author": "Jesse Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengxinming/date-smile/issues"
+  },
+  "homepage": "https://github.com/fengxinming/date-smile#readme",
+  "dependencies": {
+    "celia": "^7.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "babel-jest": "^25.1.0",
+    "clrsole": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "fs-extra": "^9.0.0",
+    "jest": "^25.1.0",
+    "mockdate": "^2.0.5",
+    "moment": "^2.24.0",
+    "rollup": "^2.1.0",
+    "rollup-plugin-combine": "^2.0.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-empty": "^1.0.0",
+    "rollup-plugin-match": "^1.0.0",
+    "rollup-plugin-terser": "^5.3.0"
+  }
+}

@@ -1,0 +1,8 @@
+*.sh
+node_modules
+logs
+dist
+npm
+coverage
+LICENSE
+README.md
