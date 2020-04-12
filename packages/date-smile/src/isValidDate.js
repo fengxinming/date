@@ -1,3 +1,1 @@
-export default function (date) {
-  return date.toString() !== 'Invalid Date';
-};
+export { default } from 'celia/isValidDate';

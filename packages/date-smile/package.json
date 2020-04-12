@@ -13,23 +13,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengxinming/date-smile.git"
+    "url": "git+https://github.com/fengxinming/date.git"
   },
   "keywords": [
-    "date",
+    "date-smile",
     "format",
     "parse",
     "moment",
-    "date-smile"
+    "date"
   ],
   "author": "Jesse Feng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fengxinming/date-smile/issues"
+    "url": "https://github.com/fengxinming/date/issues"
   },
-  "homepage": "https://github.com/fengxinming/date-smile#readme",
+  "homepage": "https://github.com/fengxinming/date#readme",
   "dependencies": {
-    "celia": "^7.0.0-beta.0"
+    "celia": "^7.0.0-beta.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
